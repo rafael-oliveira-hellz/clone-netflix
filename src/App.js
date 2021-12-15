@@ -67,7 +67,7 @@ export default () => {
       </section>
 
       <footer>
-        Feito com <span role="img" aria-label="coração">&#9829;</span> por Rafael Oliveira <br />
+        Feito com <span role="img" aria-label="coração">&#9829;</span> por Rafael de Oliveira <br />
         Direitos de imagem para Netflix <br />
         Dados pegos do site TheMovieDb.org
       </footer>
