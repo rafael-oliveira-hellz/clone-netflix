@@ -22,3 +22,30 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
   font-style: normal;
 }
+
+.lists {
+  margin-top: -170px;
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+
+footer span {
+  color: #ff0000;
+  font-size: 24px;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
