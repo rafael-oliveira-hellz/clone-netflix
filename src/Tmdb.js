@@ -46,11 +46,11 @@ export default {
                 title: 'Ação',
                 items: await basicFetch(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`)
             },
-            // {
-            //     slug: 'animation',
-            //     title: 'Animação',
-            //     items: await basicFetch(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`)
-            // },
+            {
+                slug: 'animation',
+                title: 'Animação',
+                items: await basicFetch(`/discover/movie?with_genres=16&language=pt-BR&api_key=${API_KEY}`)
+            },
             {
                 slug: 'comedy',
                 title: 'Comédia',
